@@ -13,10 +13,109 @@
     <a href="#s2">Section 2</a>
     <a href="#s3">Drop downs</a>
 </nav>
+<header>Learning HTML</header>
+
 <h1>
     WELCOME world
 </h1>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<h2 style="border:solid">Block-Level Elements</h2>
+<!--Start on a new line-->
+<button>Button</button><p>text in block</p>
+<h2 style="border:dotted">Inline Elements</h2>
+<b></b><p>paragraph</p>
+
+<p>part 1
+part 2
+part 3</p>
+<div style="text-align:center;color:blue">
+    <h2>About Me</h2>
+    <p>Hi, I'm Eloise</p>
+    <img src="https://blob.sololearn.com/courses/pcImage.jpg">
+</div>
+
+<div style="color:red">
+  <h2>Heading 2</h2>
+  <h3 style="color:green">
+  Heading 3</h3>
+  <p>Paragraph</p>
+</div>
+
+
+<h2>TABLES</h2>
+<table>
+  <tr>
+    <td>C1</td>
+    <td>C2</td>
+  </tr>
+  <tr>
+    <td>C3</td>
+    <td>C4</td>
+  </tr>
+</table>
+<table style="border:dotted">
+  <tr>
+    <td style="border:solid">
+    C1</td>
+    <td style="border:solid">
+    C2</td>
+  </tr>
+  <tr>
+    <td style="border:solid">
+    C3</td>
+    <td style="border:solid">
+    C4</td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th>Month</th>
+    <th>Budget($)</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td>500</td>
+  </tr>
+  <tr>
+    <td>February</td>
+    <td>400</td>
+  </tr>
+  <tr>
+    <td colspan="2">Sum: 900</td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th>Month</th>
+    <th>Budget($)</th>
+    <th>Savings($)</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td>500</td>
+    <td rowspan="2">150</td>
+  </tr>
+  <tr>
+    <td>February</td>
+    <td>400</td>
+  </tr>
+</table>
+<button onclick=
+"alert('Welcome to JS')">
+Click me</button>
+
+
+<img id="robot" src="image_url">
+<button onclick="robot.src='robot_left_url'">Left</button>
+<button onclick="robot.src='robot_right_url'">Right</button>
+
+
+<br><br><br><br><br><br><br><br>
+<h2 style="color:green;text-align:center">VIDEO</h2>
+<iframe style="border: 10px dotted blue"   width="560" height="315" src="https://www.youtube.com/embed/9SQAP-50Vno?si=QWRF2gjCEJLp1uss&amp;start=2876" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<br><br><br><br><br><br><br><br><br><br><br>
 <p>This is a <b>bold</b> paragraph <br>
 <i>This is italics</i> <br>
 <u>underlined text</u>
@@ -95,5 +194,6 @@ by <b>email</b></p>
 <input type="email">
 <input type="password">
 <input type="tel">
+<footer>2024</footer>
 </body>
 </html>
